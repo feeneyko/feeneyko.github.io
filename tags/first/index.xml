@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Feeney&#39;s Blog</title>
-    <link>https://blog.wkong.dev/post/</link>
-    <description>Recent content in Posts on Feeney&#39;s Blog</description>
+    <title>first on Feeney&#39;s Blog</title>
+    <link>https://blog.wkong.dev/tags/first/</link>
+    <description>Recent content in first on Feeney&#39;s Blog</description>
     <image>
       <title>Feeney&#39;s Blog</title>
       <url>https://blog.wkong.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Aug 2023 15:03:13 +0800</lastBuildDate><atom:link href="https://blog.wkong.dev/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Aug 2023 15:03:13 +0800</lastBuildDate><atom:link href="https://blog.wkong.dev/tags/first/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Second Post</title>
       <link>https://blog.wkong.dev/post/my-second-post/</link>
@@ -19,16 +19,6 @@
       
       <guid>https://blog.wkong.dev/post/my-second-post/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://blog.wkong.dev/post/my-first-post/</link>
-      <pubDate>Tue, 01 Aug 2023 16:56:43 +0800</pubDate>
-      
-      <guid>https://blog.wkong.dev/post/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!</description>
     </item>
     
   </channel>
