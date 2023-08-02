@@ -1,0 +1,17 @@
+# netlify redirects
+# from_url to_url
+
+
+# /blog/scli         /blog/simple-click/
+# /blog/cmdt         /blog/cmd-exe-tips/
+
+
+# splats
+
+# /b*             /blog/:splat
+# /n*             /notes/:splat
+
+
+# External
+
+# /twitter        https://twitter.com/kongweixuan
