@@ -14,15 +14,6 @@
     <lastBuildDate>Wed, 02 Aug 2023 15:21:43 +0800</lastBuildDate><atom:link href="https://blog.wkong.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>https://blog.wkong.dev/posts/my-first-post-copy-copy-2-copy/</link>
-      <pubDate>Wed, 02 Aug 2023 15:21:43 +0800</pubDate>
-      
-      <guid>https://blog.wkong.dev/posts/my-first-post-copy-copy-2-copy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
       <link>https://blog.wkong.dev/posts/my-first-post-copy-copy-2/</link>
       <pubDate>Wed, 02 Aug 2023 15:21:43 +0800</pubDate>
       
@@ -30,6 +21,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>My First Post</title>
+      <link>https://blog.wkong.dev/posts/my-first-post-copy-copy-3-copy/</link>
+      <pubDate>Wed, 02 Aug 2023 15:21:43 +0800</pubDate>
+      
+      <guid>https://blog.wkong.dev/posts/my-first-post-copy-copy-3-copy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://blog.wkong.dev/posts/my-first-post/</link>
+      <pubDate>Wed, 02 Aug 2023 15:21:43 +0800</pubDate>
+      
+      <guid>https://blog.wkong.dev/posts/my-first-post/</guid>
+      <description>here we go test</description>
+    </item>
     
   </channel>
 </rss>
