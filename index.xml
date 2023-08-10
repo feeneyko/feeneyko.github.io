@@ -35,8 +35,11 @@ markdown 中英文写的好难受，符号标记很多要英符号，好烦！
 最后下午的时候重新整理了下博客，把一些文章转换为draft，随后新建了diary模板。本来有一个只有posts文件夹下的贴文才首页显示的bug（应该在配置文件中可改，等下次再看，下次还要看下archetype bundle怎么弄 0w0），但既然我点开categories可以查看diary类型的文章，那我觉得挺好的，首页放日记本来就有点抽象。
 不出意料在把这篇东西发表出去之后我要开始点晚饭外卖，然后重新测试除螨仪。我不能忘记去查看亚麻的intern申请，这事情我拖了好久。晚上还有时间我要看下研究生申请的项目。老登不爆金币找中介，压力给到了我这边qwq。
 小技巧 如果用的netlify(挺好用的)部署，可以在根目录创建文件_redirects，用于缩短网址。
-比如我们可以通过配置（具体教程网上有）把https://gohugo.io/content-management/archetypes/（hugo archetypes的使用说明）缩短为https://wkong.dev/hugo-create-archetype
-Update 发布之后发现首页会显示，而图片死活显示不出来。。。难道一定要用图床吗？</description>
+比如我们可以通过配置（具体教程网上有）把https://gohugo.io/content-management/archetypes/（hugo archetypes的使用说明）缩短为https://blog.wkong.dev/hugo-create-archetype
+Update 发布之后发现首页会显示，而图片死活显示不出来。。。难道一定要用图床吗？
+Update2 刚刚update的问题解决了, yeah！
+我鸭看看能不能不把图片全塞在根目录。
+我靠，楼上小孩钢琴在弹米津玄师的Lemon，太有了！</description>
     </item>
     
   </channel>
