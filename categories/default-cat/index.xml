@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Feeney&#39;s Blog</title>
-    <link>https://blog.wkong.dev/posts/</link>
-    <description>Recent content in Posts on Feeney&#39;s Blog</description>
+    <title>default cat on Feeney&#39;s Blog</title>
+    <link>https://blog.wkong.dev/categories/default-cat/</link>
+    <description>Recent content in default cat on Feeney&#39;s Blog</description>
     <image>
       <title>Feeney&#39;s Blog</title>
       <url>https://blog.wkong.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Aug 2023 18:55:56 +0800</lastBuildDate><atom:link href="https://blog.wkong.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Aug 2023 18:55:56 +0800</lastBuildDate><atom:link href="https://blog.wkong.dev/categories/default-cat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sanyo MR-55 Manual</title>
       <link>https://blog.wkong.dev/posts/sanyo-mr55-manual/</link>
