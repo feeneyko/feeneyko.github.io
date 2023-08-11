@@ -11,9 +11,28 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Aug 2023 16:50:56 +0800</lastBuildDate><atom:link href="https://blog.wkong.dev/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Aug 2023 08:56:28 +0800</lastBuildDate><atom:link href="https://blog.wkong.dev/categories/diary/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>8 10 2023 Diary</title>
+      <title>8-11-2023 Diary</title>
+      <link>https://blog.wkong.dev/diary/8-11-2023-diary/</link>
+      <pubDate>Fri, 11 Aug 2023 08:56:28 +0800</pubDate>
+      
+      <guid>https://blog.wkong.dev/diary/8-11-2023-diary/</guid>
+      <description>回头看 1 楼下农民工没来干我
+2 除螨仪没坏 一样用
+3 就是也可以当电动气吹
+很难想象昨天因为这三件事情要死要活
+牢骚 咽喉非常痛，没有睡好觉
+每日一香 今天点的是日本香堂 沉香永寿虽然写的是沉香，却是不折不扣的便宜货。
+直接闻味道感觉调性和花风确实有所不同，更加像寺庙里烧的味道XD。但味道不如我想象的厚重，可能香就是比较飘吧。
+点燃之后，感觉烟火气更加浓一些，烧的速度也快一些（存疑？update：应该是错觉）。味道和花风最大的不同应该是少了一点花香。
+味道对于我来说可以接受（应该没有我不接收的），但考虑到我对寺庙无感，所以花风&amp;gt;沉香永寿。
+败家 今天花了43买喜茶x原神两杯饮料。
+流水账 今天早饭吃了饼（如图）： 小技巧 更多推荐 </description>
+    </item>
+    
+    <item>
+      <title>8-10-2023 Diary</title>
       <link>https://blog.wkong.dev/diary/8-10-2023-diary/</link>
       <pubDate>Thu, 10 Aug 2023 16:50:56 +0800</pubDate>
       
@@ -38,16 +57,17 @@ markdown 中英文写的好难受，符号标记很多要英符号，好烦！
 下午先试了刚到的几个电器，松下除螨仪大吸力强拍打除菌和车载吸尘器车用无线充电汽车家用手持小型车内大功率吹吸两用迷你，结果很不尽如人意。
 最后下午的时候重新整理了下博客，把一些文章转换为draft，随后新建了diary模板。本来有一个只有posts文件夹下的贴文才首页显示的bug（应该在配置文件中可改，等下次再看，下次还要看下archetype bundle怎么弄 0w0），但既然我点开categories可以查看diary类型的文章，那我觉得挺好的，首页放日记本来就有点抽象。
 不出意料在把这篇东西发表出去之后我要开始点晚饭外卖，然后重新测试除螨仪。我不能忘记去查看亚麻的intern申请，这事情我拖了好久。晚上还有时间我要看下研究生申请的项目。老登不爆金币找中介，压力给到了我这边qwq。
-目前上面的计划，全都没有做！先吃了晚饭（如图）：和上海的东池便当不一样，常州的依然是木盒，所以味道很好吃。肉表皮很脆，里面很嫩，我的烂牙也能吃。后面的骨头比较不规则，所以吃不了了。不愧是台湾便当，就是比滞纳便当好吃。
+目前上面的计划，全都没有做！先吃了晚饭（如图）：和上海的东池便当不一样，常州的依然是木盒，所以味道很好吃。肉表皮很脆，里面很嫩，我的烂牙也能吃。后面的骨头比较不规则，所以吃不了了。不愧是台湾便当，就是比滞纳便当好吃。21元。
+刚刚给RMHC发邮件询问志愿者的事情。ChatGPT写的太好了，让我颇有一种冒名顶替的感觉XD。
+https://rmhcrochester.org/get-involved/volunteer/
+知乎上看到了一篇颇为不错的GRE攻略，可以安排时间开始进行了。
+GRE 如何准备才能拿高分？ - Cardhu的回答 - 知乎 https://www.zhihu.com/question/19701271/answer/1316634335
+AMZ内推还在问。
 小技巧 如果用的netlify(挺好用的)部署，可以在根目录创建文件_redirects，用于缩短网址。
 自定义短网址 比如我们可以通过配置（具体教程网上有）把https://gohugo.io/content-management/archetypes/（hugo archetypes的使用说明）缩短为https://blog.wkong.dev/hugo-create-archetype
+=====
 Update 发布之后发现首页会显示，而图片死活显示不出来。。。难道一定要用图床吗？
-Update 2 刚刚update的问题解决了, yeah！
-我鸭看看能不能不把图片全塞在根目录。
-我靠，楼上小孩钢琴在弹米津玄师的Lemon，太有了！
-Update 3 成功！我要把香全都收好，不然我妈肯定要说我。
-我刚刚想到我想买一个盘子和杯子，如图：
-Update 4 晚上应该去楼下锻炼下身体。 我的钱可能撑不到12月</description>
+Update 2 刚刚update的问题解决了, yeah！</description>
     </item>
     
   </channel>
