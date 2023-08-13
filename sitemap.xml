@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.wkong.dev/diary/8-11-2023-diary/</loc>
-    <lastmod>2023-08-11T08:56:28+08:00</lastmod>
+    <loc>https://blog.wkong.dev/diary/8-13-2023-diary/</loc>
+    <lastmod>2023-08-13T08:42:32+08:00</lastmod>
   </url><url>
     <loc>https://blog.wkong.dev/categories/</loc>
-    <lastmod>2023-08-11T08:56:28+08:00</lastmod>
+    <lastmod>2023-08-13T08:42:32+08:00</lastmod>
   </url><url>
     <loc>https://blog.wkong.dev/diary/</loc>
-    <lastmod>2023-08-11T08:56:28+08:00</lastmod>
+    <lastmod>2023-08-13T08:42:32+08:00</lastmod>
   </url><url>
     <loc>https://blog.wkong.dev/categories/diary/</loc>
-    <lastmod>2023-08-11T08:56:28+08:00</lastmod>
+    <lastmod>2023-08-13T08:42:32+08:00</lastmod>
   </url><url>
     <loc>https://blog.wkong.dev/</loc>
+    <lastmod>2023-08-13T08:42:32+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.wkong.dev/diary/8-12-2023-diary/</loc>
+    <lastmod>2023-08-12T08:45:27+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.wkong.dev/diary/8-11-2023-diary/</loc>
     <lastmod>2023-08-11T08:56:28+08:00</lastmod>
   </url><url>
     <loc>https://blog.wkong.dev/categories/default-cat/</loc>
