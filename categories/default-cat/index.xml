@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>default cat on Feeney&#39;s Blog</title>
+    <title>default cat on Feeney&#39;s Diary</title>
     <link>https://blog.wkong.dev/categories/default-cat/</link>
-    <description>Recent content in default cat on Feeney&#39;s Blog</description>
+    <description>Recent content in default cat on Feeney&#39;s Diary</description>
     <image>
-      <title>Feeney&#39;s Blog</title>
+      <title>Feeney&#39;s Diary</title>
       <url>https://blog.wkong.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://blog.wkong.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>

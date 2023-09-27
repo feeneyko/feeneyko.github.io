@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>diary on Feeney&#39;s Blog</title>
+    <title>diary on Feeney&#39;s Diary</title>
     <link>https://blog.wkong.dev/categories/diary/</link>
-    <description>Recent content in diary on Feeney&#39;s Blog</description>
+    <description>Recent content in diary on Feeney&#39;s Diary</description>
     <image>
-      <title>Feeney&#39;s Blog</title>
+      <title>Feeney&#39;s Diary</title>
       <url>https://blog.wkong.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://blog.wkong.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 Sep 2023 10:30:26 -0400</lastBuildDate><atom:link href="https://blog.wkong.dev/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Sep 2023 11:03:31 -0400</lastBuildDate><atom:link href="https://blog.wkong.dev/categories/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>9-26-2023-Diary</title>
+      <link>https://blog.wkong.dev/diary/9-26-2023-diary/</link>
+      <pubDate>Tue, 26 Sep 2023 11:03:31 -0400</pubDate>
+      
+      <guid>https://blog.wkong.dev/diary/9-26-2023-diary/</guid>
+      <description>今天上了两节课，与教授和TA互动，研究了巴黎酒店住宿选项，打了游戏，看了小红书内容，并反思了自己的旅行规划方式。</description>
+    </item>
+    
     <item>
       <title>9-25-2023-Diary</title>
       <link>https://blog.wkong.dev/diary/9-25-2023-diary/</link>
       <pubDate>Mon, 25 Sep 2023 10:30:26 -0400</pubDate>
       
       <guid>https://blog.wkong.dev/diary/9-25-2023-diary/</guid>
-      <description>今天的作者描述了自己的日常生活、学习、消费和对抽烟的思考，以及面临的学业压力。</description>
+      <description>今天的作者描述了自己的日常生活、学习、消费和对抽烟的思考，以及面临的学业压力和人生选择。</description>
     </item>
     
     <item>

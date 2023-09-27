@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on Feeney&#39;s Blog</title>
+    <title>Categories on Feeney&#39;s Diary</title>
     <link>https://blog.wkong.dev/categories/</link>
-    <description>Recent content in Categories on Feeney&#39;s Blog</description>
+    <description>Recent content in Categories on Feeney&#39;s Diary</description>
     <image>
-      <title>Feeney&#39;s Blog</title>
+      <title>Feeney&#39;s Diary</title>
       <url>https://blog.wkong.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://blog.wkong.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 Sep 2023 10:30:26 -0400</lastBuildDate><atom:link href="https://blog.wkong.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Sep 2023 11:03:31 -0400</lastBuildDate><atom:link href="https://blog.wkong.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>diary</title>
       <link>https://blog.wkong.dev/categories/diary/</link>
-      <pubDate>Mon, 25 Sep 2023 10:30:26 -0400</pubDate>
+      <pubDate>Tue, 26 Sep 2023 11:03:31 -0400</pubDate>
       
       <guid>https://blog.wkong.dev/categories/diary/</guid>
       <description></description>
