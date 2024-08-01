@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AA on Whimsical Musings</title>
+    <link>https://blog.feeney.moe/tags/aa/</link>
+    <description>Recent content in AA on Whimsical Musings</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Feeney. Under CC-BY-NC 4.0.</copyright>
+    <lastBuildDate>Thu, 01 Aug 2024 18:09:02 -0400</lastBuildDate>
+    <atom:link href="https://blog.feeney.moe/tags/aa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用Python追踪AA里程票Availability</title>
+      <link>https://blog.feeney.moe/aa-award-ticket/</link>
+      <pubDate>Thu, 01 Aug 2024 18:09:02 -0400</pubDate>
+      <guid>https://blog.feeney.moe/aa-award-ticket/</guid>
+      <description>取aa award calendar api postman取api返回的json示例 postman生成python调用api的code 用gpt按照json示例生成筛选可用性的代码 合并上两步的代码-修改Postman生成的代码和gpt生成的代码 本地试运行 自动运行： O1 - python脚本里面加个循环无限运行 O2 - win上部署有定时任务可以用，linux上一般就是cronjob，另外python还有很多包可以实现定时任务，比如apscheduler这种。（每段时间运行一次code） O3 - 部署到狗云，把python script 部署到cloud function 查票，然后结果上传到数据库 (Bigquery), 然后用looker studio 做一个简单的图表。cloud scheduler &amp;amp; pubsub 设置每个小时就自动查一次。数据量小，所以都是免费的。想看到时候，我自己点到 lookerstudio 网站看就行。 查到票显示链接 cf 可以自动发邮件 or slack msg 给自己。 可选： 代理池&#xA;其他： api可以做到1min一次 ip被ban半分钟复活</description>
+    </item>
+  </channel>
+</rss>

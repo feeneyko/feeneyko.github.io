@@ -7,9 +7,165 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Feeney. Under CC-BY-NC 4.0.</copyright>
-    <lastBuildDate>Sat, 01 Jun 2024 17:13:14 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 01 Aug 2024 18:09:02 -0400</lastBuildDate>
     
         <atom:link href="https://blog.feeney.moe/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>用Python追踪AA里程票Availability</title>
+        <link>https://blog.feeney.moe/aa-award-ticket/</link>
+        <pubDate>Thu, 01 Aug 2024 18:09:02 -0400</pubDate>
+        
+        <guid>https://blog.feeney.moe/aa-award-ticket/</guid>
+        <description>Whimsical Musings https://blog.feeney.moe/aa-award-ticket/ -&lt;ul&gt;
+&lt;li&gt;取aa award calendar api&lt;/li&gt;
+&lt;li&gt;postman取api返回的json示例&lt;/li&gt;
+&lt;li&gt;postman生成python调用api的code&lt;/li&gt;
+&lt;li&gt;用gpt按照json示例生成筛选可用性的代码&lt;/li&gt;
+&lt;li&gt;合并上两步的代码-修改Postman生成的代码和gpt生成的代码&lt;/li&gt;
+&lt;li&gt;本地试运行&lt;/li&gt;
+&lt;li&gt;自动运行：
+O1 - python脚本里面加个循环无限运行
+O2 - win上部署有定时任务可以用，linux上一般就是cronjob，另外python还有很多包可以实现定时任务，比如apscheduler这种。（每段时间运行一次code）
+O3 - 部署到狗云，把python script 部署到cloud function 查票，然后结果上传到数据库 (Bigquery), 然后用looker studio 做一个简单的图表。cloud scheduler &amp;amp; pubsub 设置每个小时就自动查一次。数据量小，所以都是免费的。想看到时候，我自己点到 lookerstudio 网站看就行。&lt;/li&gt;
+&lt;li&gt;查到票显示链接&lt;/li&gt;
+&lt;li&gt;cf 可以自动发邮件 or slack msg 给自己。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;可选：
+代理池&lt;/p&gt;
+&lt;p&gt;其他：
+api可以做到1min一次 ip被ban半分钟复活&lt;/p&gt;
+- https://blog.feeney.moe/aa-award-ticket/ - Feeney. Under CC-BY-NC 4.0.</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>AMEX gamer 中级教程</title>
+        <link>https://blog.feeney.moe/amex-101/</link>
+        <pubDate>Thu, 01 Aug 2024 17:40:14 -0400</pubDate>
+        
+        <guid>https://blog.feeney.moe/amex-101/</guid>
+        <description>Whimsical Musings https://blog.feeney.moe/amex-101/ -&lt;h3 id=&#34;basics&#34;&gt;Basics:&lt;/h3&gt;
+&lt;p&gt;50000字略：nll, fr, etc&amp;hellip;&lt;/p&gt;
+&lt;p&gt;核心：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;拿开卡奖励（sub）&lt;/li&gt;
+&lt;li&gt;巧取报销&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;难点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;lifetime limit，只能拿一次开卡奖励&lt;/li&gt;
+&lt;li&gt;报销限制大，不灵活&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;解决：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;开卡奖励
+&lt;ul&gt;
+&lt;li&gt;周年升级 double dip&lt;/li&gt;
+&lt;li&gt;non-lifetime language (nll) 开卡链接&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;报销
+&lt;ul&gt;
+&lt;li&gt;升降级，一年内拿多次报销&lt;/li&gt;
+&lt;li&gt;把报销变成退款&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;chaege-card-10卡槽&#34;&gt;Chaege Card 10卡槽&lt;/h3&gt;
+&lt;h4 id=&#34;个人卡&#34;&gt;个人卡：&lt;/h4&gt;
+&lt;p&gt;个人绿（可以考虑不开）-&amp;gt; 个人金 -&amp;gt; 个人白金&lt;/p&gt;
+&lt;p&gt;先开个人绿，满一年后升级到个人金，同时开个人金（两个网页一起开好了），再满一年后升级到个人白金，同时开个人白金（两个网页一起开好了）&lt;/p&gt;
+&lt;p&gt;这是理想状态，默认每次都开的是有lifetime limit的卡，因为开卡奖励比nll的多。后面酌情开nll，当让也可以直接nll狂开。&lt;/p&gt;
+&lt;p&gt;每张卡报销/升降级都有不同的玩法，不在此赘述&lt;/p&gt;
+&lt;h3 id=&#34;商业卡&#34;&gt;商业卡：&lt;/h3&gt;
+&lt;p&gt;商业金 -&amp;gt; 商业白金&lt;/p&gt;
+&lt;p&gt;开商业金，直接升级到商业白金（不要满一年），添加employee card。这样只要用employee card消费，就可以拿到一张商业黄金+商业黄金升级白金+员工卡的开卡奖励。比如商业黄金要消费1w拿150k，升级到商业白金要消费1w拿150k，员工卡要消费5*2k拿5k，你只要消费5*2k就可以拿到325k。&lt;/p&gt;
+&lt;p&gt;如果没拿过开卡奖励，可以在上面升级同时开商业白金，这样可以拿到ll的两张商业白金的开卡奖励。&lt;/p&gt;
+&lt;p&gt;后面酌情开nll，继续用上面的trick。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Credit Card 5卡槽&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;主要难点是突破卡槽，到第四张卡时，直接同时申请尽可能多的卡，理想状态可以冲到7-8张卡&lt;/p&gt;
+&lt;p&gt;每张卡报销/升降级都有不同的玩法，不在此赘述&lt;/p&gt;
+- https://blog.feeney.moe/amex-101/ - Feeney. Under CC-BY-NC 4.0.</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Milage Run Intro (WIP/ UA updated)</title>
+        <link>https://blog.feeney.moe/milage-run-intro/</link>
+        <pubDate>Thu, 01 Aug 2024 17:36:05 -0400</pubDate>
+        
+        <guid>https://blog.feeney.moe/milage-run-intro/</guid>
+        <description>Whimsical Musings https://blog.feeney.moe/milage-run-intro/ -&lt;h3 id=&#34;united-airlines&#34;&gt;United Airlines:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Objective&lt;/strong&gt;: Minimize spending while achieving required status (achieve the &lt;strong&gt;PQP&lt;/strong&gt; and &lt;strong&gt;PQF&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PQP Goal&lt;/strong&gt;: &lt;strong&gt;Money&lt;/strong&gt; you spent on &lt;strong&gt;UA&lt;/strong&gt; OR &lt;strong&gt;Milage&lt;/strong&gt; flied with *&lt;em&gt;Certain Star Alliance (&lt;em&gt;A) partners&lt;/em&gt;&lt;/em&gt;. Vary based on the Tier you want to reach. Generally speaking, for milage run, aim for approximately 2 PQP per dollar spent.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PQF Requirement&lt;/strong&gt;: Achieve the &lt;strong&gt;4 PQF&lt;/strong&gt; minimum on United Airlines (UA). (aka flight segments on UA, e.g., PVG-ORD-ROC = 2 PQP). UA&amp;rsquo;s Award tickets counts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Overall Spend&lt;/strong&gt;: Estimated $9k-$12k to maintain 1K status with Milage Run. Gold, Plat wait for updates. You can get head start with UA credit card. Or use Status match from other airlines (for the first year).&lt;/li&gt;
+&lt;li&gt;Million Miler program/BIS: 1 million = Lifetime Premier Gold, 2m = plat, &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;miles-calculation&#34;&gt;Miles Calculation:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;UA&lt;/strong&gt;: Miles are calculated using a fare multiplier. When you buy a ticket on United ticket stock (which is all that flight credit will allow) you&amp;rsquo;ll receive 1 PQP per dollar spent toward base fare and carrier-imposed fees, excluding taxes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Partners&lt;/strong&gt;: Miles are calculated based on full distance, cabin bonuses, and UA status bonuses.
+&lt;ul&gt;
+&lt;li&gt;Calculator: &lt;a href=&#34;https://pqp.economiles.com/&#34;&gt;https://pqp.economiles.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Advantage&lt;/strong&gt;: Higher mileage and PQP earning rates with partner airlines.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Disadvantage&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Flights on partner airlines do not count towards BIS (Butt-in-Seat) miles for UA’s million miler status.&lt;/li&gt;
+&lt;li&gt;UA imposes a PQP segment cap on preferred partners.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;examples&#34;&gt;Examples:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Routes&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;3pqp/$ good, 2pqp/$ acceptable&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Premium economy on Lufthansa: ORD-FRA-DEL/MAA/JNB&lt;/li&gt;
+&lt;li&gt;Regular/economy flex on Air Canada: SFO-YVR-SYD&lt;/li&gt;
+&lt;li&gt;Occasional good fares on Swiss: ORD-ZRH&lt;/li&gt;
+&lt;li&gt;ORD - JNB on Premium Econ (Y/N mixed cabin) fares on Swiss round trip $1,588 3,000 PQP&lt;/li&gt;
+&lt;li&gt;EgyptAir JNB - CAN died&lt;/li&gt;
+&lt;li&gt;DEN-YVR-NRT, DEN-HNL, DEN-PTY-LIM, DEN-NRT on (NH)&lt;/li&gt;
+&lt;li&gt;From EWR Swiss YYN economy / premium economy mix to Nairobi, Kenya (NBO) $1,488.10 round trip earn 3106 PQP for the roundtrip (cap)&lt;/li&gt;
+&lt;li&gt;Cost per PQP - 48.4868 cents USD each / 2.06 PQP/$&lt;/li&gt;
+&lt;li&gt;TUN-IAH in LH/AC J, or MAD/BCN in AC PY 1.8 PQP/$&lt;/li&gt;
+&lt;li&gt;JNB - CAN/PVG by Egypt Air only JNB-PVG Alive for 700$ 1500 PQP&lt;/li&gt;
+&lt;li&gt;IAD-JNB PE r/t $1500 3000 PQP&lt;/li&gt;
+&lt;li&gt;YVR-YUL-GRU-EZE-GRU-YUL-YVR  $1367 roundtrip 2850 PQP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Examples of Deals&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Air India and Turkish Airlines fares around $600 yielding ~1200 PQP.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;bis&#34;&gt;BIS:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;SIN-yyz/yow-US&lt;/li&gt;
+&lt;li&gt;LAX-KOA-LAX, LAX-EWR-MCO/MIA/FLL-EWR-LAX, LAX-EWR-BQN/SJU-EWR-LAX. Most of these were sub-4 cpm&lt;/li&gt;
+&lt;li&gt;SIN-EWR used to be a little more than $1k for 20k miles so closer to the 5 cpm mark&lt;/li&gt;
+&lt;li&gt;SIN/EWR through SFO fares for under 4 cpm check Toronto and BOS too&lt;/li&gt;
+&lt;li&gt;100,000 BIS miles with $4,000&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;4.3 cpm accetable. 3.9 good&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;For ORD, Id check out Hawaii: HNL, OGG or KOA are your best bets. You should also look into going to Hawaii and then doing a round trip to SJU before heading home&lt;/li&gt;
+&lt;li&gt;ORD, look into DXB: fares from LAX are low. I typically fly there for $721 round trip or about 3.88 cpm. It does involve an overnight. Id check fares from ORD. Look into SIN too. SIN should generate close to 20,000 BIS miles, though Ive recently found it hard to get reasonable fares&lt;/li&gt;
+&lt;/ul&gt;
+- https://blog.feeney.moe/milage-run-intro/ - Feeney. Under CC-BY-NC 4.0.</description>
+        </item>
     
     
     
@@ -123,8 +279,8 @@
 &lt;h2 id=&#34;解决可用性问题&#34;&gt;解决可用性问题&lt;/h2&gt;
 &lt;h3 id=&#34;一般情况&#34;&gt;一般情况&lt;/h3&gt;
 &lt;p&gt;那么要如何找到票呢？可以通过各个航司官网直接搜索奖励机票。但是除了部分航司（i.e., &lt;a href=&#34;https://www.united.com/&#34;&gt;UA&lt;/a&gt;, &lt;a href=&#34;https://www.aa.com/&#34;&gt;AA&lt;/a&gt;），在航司官网搜索奖励机票并不能显示一整个月的可用性，响应也比较慢。&lt;/p&gt;
-&lt;p&gt;因此第三方工具可能是更方便的选择，例如&lt;a href=&#34;https://seats.aero/&#34;&gt;农贸市场&lt;/a&gt;，&lt;a href=&#34;https://www.pointsyeah.com/&#34;&gt;Points Yeah&lt;/a&gt;&lt;a href=&#34;https://www.cowtool.com/&#34;&gt;牛具&lt;/a&gt; ，&lt;a href=&#34;https://www.expertflyer.com/&#34;&gt;ExpertFlyer&lt;/a&gt;等等。&lt;/p&gt;
-&lt;p&gt;从易用性来讲，我推荐农贸市场。&lt;/p&gt;
+&lt;p&gt;因此第三方工具可能是更方便的选择，例如&lt;a href=&#34;https://seats.aero/&#34;&gt;农贸市场&lt;/a&gt;，&lt;a href=&#34;https://www.pointsyeah.com/&#34;&gt;Points Yeah&lt;/a&gt;，&lt;a href=&#34;https://www.awardhacker.com/&#34;&gt;AwardHacker&lt;/a&gt;, &lt;a href=&#34;https://www.cowtool.com/&#34;&gt;牛具&lt;/a&gt; ，&lt;a href=&#34;https://www.expertflyer.com/&#34;&gt;ExpertFlyer&lt;/a&gt;等等。&lt;/p&gt;
+&lt;p&gt;从易用性来讲，我推荐农贸市场，Points Yeah，和 AwardHacker。有时农贸市场查不到的票后面两个可以找到。&lt;/p&gt;
 &lt;h3 id=&#34;农贸市场的功能&#34;&gt;农贸市场的功能&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;按照&lt;strong&gt;点数花费排序&lt;/strong&gt;，同时也可以筛选 Operating carriers 和用来换票的&lt;strong&gt;里程计划&lt;/strong&gt;&lt;/li&gt;
@@ -459,129 +615,6 @@ In conclusion, from a monist perspective, it is plausible to say that AI creatin
 &lt;li&gt;TODO: 翻译功能，修改字体（大概率都不会实现）&lt;/li&gt;
 &lt;/ol&gt;
 - https://blog.feeney.moe/posts/website-building/creating-a-website-with-github-pages-and-hugo/ - Feeney. Under CC-BY-NC 4.0.</description>
-        </item>
-    
-    
-    
-        <item>
-        <title>中文文本测试</title>
-        <link>https://blog.feeney.moe/posts/example-posts/chinese/</link>
-        <pubDate>Thu, 14 Nov 2019 11:25:05 -0400</pubDate>
-        
-        <guid>https://blog.feeney.moe/posts/example-posts/chinese/</guid>
-        <description>Whimsical Musings https://blog.feeney.moe/posts/example-posts/chinese/ -&lt;p&gt;　　这样看来， 邓拓在不经意间这样说过，越是没有本领的就越加自命不凡。这不禁令我深思。 我们不得不面对一个非常尴尬的事实，那就是， 一般来说， 所谓中午吃什么，关键是中午吃什么需要如何写。 伏尔泰说过一句富有哲理的话，坚持意志伟大的事业需要始终不渝的精神。这启发了我， 那么， 对我个人而言，中午吃什么不仅仅是一个重大的事件，还可能会改变我的人生。 这样看来， 我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。 一般来讲，我们都必须务必慎重的考虑考虑。 黑格尔说过一句富有哲理的话，只有永远躺在泥坑里的人，才不会再掉进坑里。这启发了我， 我们不得不面对一个非常尴尬的事实，那就是， 既然如何， 在这种困难的抉择下，本人思来想去，寝食难安。&lt;/p&gt;
-&lt;p&gt;　　我认为， 而这些并不是完全重要，更加重要的问题是， 了解清楚中午吃什么到底是一种怎么样的存在，是解决一切问题的关键。 中午吃什么因何而发生？ 而这些并不是完全重要，更加重要的问题是， 卢梭在不经意间这样说过，浪费时间是一桩大罪过。这启发了我， 既然如此， 从这个角度来看， 歌德在不经意间这样说过，意志坚强的人能把世界放在手中像泥块一样任意揉捏。我希望诸位也能好好地体会这句话。 我认为， 我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。 本人也是经过了深思熟虑，在每个日日夜夜思考这个问题。 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 莎士比亚在不经意间这样说过，人的一生是短的，但如果卑劣地过这一生，就太长了。带着这句话，我们还要更加慎重的审视这个问题： 带着这些问题，我们来审视一下中午吃什么。 中午吃什么因何而发生？ 我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。 布尔沃曾经说过，要掌握书，莫被书掌握；要为生而读，莫为读而生。这似乎解答了我的疑惑。 而这些并不是完全重要，更加重要的问题是， 生活中，若中午吃什么出现了，我们就不得不考虑它出现了的事实。 本人也是经过了深思熟虑，在每个日日夜夜思考这个问题。 带着这些问题，我们来审视一下中午吃什么。 生活中，若中午吃什么出现了，我们就不得不考虑它出现了的事实。 我认为， 一般来说， 中午吃什么，到底应该如何实现。 我们不得不面对一个非常尴尬的事实，那就是， 所谓中午吃什么，关键是中午吃什么需要如何写。 我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。 现在，解决中午吃什么的问题，是非常非常重要的。&lt;/p&gt;
-&lt;p&gt;　　我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。 可是，即使是这样，中午吃什么的出现仍然代表了一定的意义。 带着这些问题，我们来审视一下中午吃什么。 本人也是经过了深思熟虑，在每个日日夜夜思考这个问题。 我认为， 问题的关键究竟为何？ 非洲曾经提到过，最灵繁的人也看不见自己的背脊。这启发了我， 易卜生说过一句富有哲理的话，伟大的事业，需要决心，能力，组织和责任感。这似乎解答了我的疑惑。 一般来说， 在这种困难的抉择下，本人思来想去，寝食难安。 中午吃什么，到底应该如何实现。 经过上述讨论， 我们一般认为，抓住了问题的关键，其他一切则会迎刃而解。 中午吃什么因何而发生？
-带着这些问题，我们来审视一下中午吃什么。 对我个人而言，中午吃什么不仅仅是一个重大的事件，还可能会改变我的人生。&lt;/p&gt;
-- https://blog.feeney.moe/posts/example-posts/chinese/ - Feeney. Under CC-BY-NC 4.0.</description>
-        </item>
-    
-    
-    
-        <item>
-        <title>Typography - Test for features</title>
-        <link>https://blog.feeney.moe/posts/example-posts/post-5/</link>
-        <pubDate>Sun, 18 Mar 2018 12:13:38 +0530</pubDate>
-        
-        <guid>https://blog.feeney.moe/posts/example-posts/post-5/</guid>
-        <description>Whimsical Musings https://blog.feeney.moe/posts/example-posts/post-5/ -&lt;p&gt;Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.&lt;/p&gt;
-&lt;h1 id=&#34;heading-1&#34;&gt;Heading 1&lt;/h1&gt;
-&lt;p&gt;Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.&lt;/p&gt;
-&lt;h2 id=&#34;heading-2&#34;&gt;Heading 2&lt;/h2&gt;
-&lt;p&gt;Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.&lt;/p&gt;
-&lt;h3 id=&#34;heading-3&#34;&gt;Heading 3&lt;/h3&gt;
-&lt;p&gt;Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.&lt;/p&gt;
-&lt;h4 id=&#34;heading-4&#34;&gt;Heading 4&lt;/h4&gt;
-&lt;p&gt;Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.&lt;/p&gt;
-&lt;h5 id=&#34;heading-5&#34;&gt;Heading 5&lt;/h5&gt;
-&lt;p&gt;Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.&lt;/p&gt;
-&lt;h6 id=&#34;heading-6&#34;&gt;Heading 6&lt;/h6&gt;
-&lt;p&gt;Lid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit quo minus id quod amets untra dolor amet sad. Sed ut perspser iciatis unde omnis iste natus error sit voluptatem accusantium doloremque laste. Dolores sadips ipsums sits.&lt;/p&gt;
-&lt;h2 id=&#34;typography&#34;&gt;Typography&lt;/h2&gt;
-&lt;p&gt;Lid est laborum et dolorum fuga, This is &lt;a href=&#34;http://example.com/&#34; title=&#34;Title&#34;&gt;an example&lt;/a&gt; inline link. Et harum quidem rerum facilis, &lt;strong&gt;This is bold&lt;/strong&gt; and &lt;em&gt;emphasis&lt;/em&gt; cumque nihilse impedit quo minus id quod amets untra dolor amet sad. While this is &lt;code&gt;code block()&lt;/code&gt; and following is a &lt;code&gt;pre&lt;/code&gt; tag&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;print &#39;this is pre tag&#39;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Following is the syntax highlighted code block&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#eed;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8b008b;font-weight:bold&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#008b45&#34;&gt;getCookie&lt;/span&gt;(name &lt;span style=&#34;color:#00688b;font-weight:bold&#34;&gt;string&lt;/span&gt;, r &lt;span style=&#34;color:#8b008b;font-weight:bold&#34;&gt;interface&lt;/span&gt;{}) (*http.Cookie, &lt;span style=&#34;color:#00688b;font-weight:bold&#34;&gt;error&lt;/span&gt;) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	rd := r.(*http.Request)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	cookie, err := rd.&lt;span style=&#34;color:#008b45&#34;&gt;Cookie&lt;/span&gt;(name)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#8b008b;font-weight:bold&#34;&gt;if&lt;/span&gt; err != &lt;span style=&#34;color:#8b008b;font-weight:bold&#34;&gt;nil&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		&lt;span style=&#34;color:#8b008b;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#8b008b;font-weight:bold&#34;&gt;nil&lt;/span&gt;, err
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#8b008b;font-weight:bold&#34;&gt;return&lt;/span&gt; cookie, &lt;span style=&#34;color:#8b008b;font-weight:bold&#34;&gt;nil&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8b008b;font-weight:bold&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#008b45&#34;&gt;setCookie&lt;/span&gt;(cookie *http.Cookie, w &lt;span style=&#34;color:#8b008b;font-weight:bold&#34;&gt;interface&lt;/span&gt;{}) &lt;span style=&#34;color:#00688b;font-weight:bold&#34;&gt;error&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#228b22&#34;&gt;// Get write interface registered using `Acquire` method in handlers.
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#228b22&#34;&gt;&lt;/span&gt;	wr := w.(http.ResponseWriter)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	http.&lt;span style=&#34;color:#008b45&#34;&gt;SetCookie&lt;/span&gt;(wr, cookie)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#8b008b;font-weight:bold&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#8b008b;font-weight:bold&#34;&gt;nil&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This is blockquote, Will make it &lt;em&gt;better now&lt;/em&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;lsquo;I want to do with you what spring does with the cherry trees.&amp;rsquo; &lt;cite&gt;cited ~Pablo Neruda&lt;/cite&gt;*&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Et harum quidem &lt;em&gt;rerum facilis&lt;/em&gt; est et expeditasi distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihilse impedit&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Unordered list&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Red&lt;/li&gt;
-&lt;li&gt;Green&lt;/li&gt;
-&lt;li&gt;Blue&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Ordered list&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Red&lt;/li&gt;
-&lt;li&gt;Green&lt;/li&gt;
-&lt;li&gt;Blue&lt;/li&gt;
-&lt;/ol&gt;
-- https://blog.feeney.moe/posts/example-posts/post-5/ - Feeney. Under CC-BY-NC 4.0.</description>
-        </item>
-    
-    
-    
-        <item>
-        <title>(No comment) When You Have Too Much to Do</title>
-        <link>https://blog.feeney.moe/posts/example-posts/post-1/</link>
-        <pubDate>Sun, 18 Mar 2018 02:01:58 +0530</pubDate>
-        
-        <guid>https://blog.feeney.moe/posts/example-posts/post-1/</guid>
-        <description>Whimsical Musings https://blog.feeney.moe/posts/example-posts/post-1/ -&lt;p&gt;You have a to-do list that scrolls on for days. You are managing multiple projects, getting lots of email and messages on different messaging systems, managing finances and personal health habits and so much more.&lt;/p&gt;
-&lt;p&gt;It all keeps piling up, and it can feel overwhelming.&lt;/p&gt;
-&lt;p&gt;How do you keep up with it all? How do you find focus and peace and get stuff accomplished when you have too much on your plate?&lt;/p&gt;
-&lt;p&gt;In this primer, I’ll look at some key strategies and tactics for taking on an overloaded life with an open heart, lots of energy, and a smile on your face.&lt;/p&gt;
-&lt;h2 id=&#34;the-first-step-triage&#34;&gt;The First Step: Triage&lt;/h2&gt;
-&lt;p&gt;Whether you’re just starting your day, or you’re in the middle of the chaos and just need to find some sanity … the first step is to get into triage mode.&lt;/p&gt;
-&lt;p&gt;Triage, as you probably know, is sorting through the chaos to prioritize: what needs to be done now, what needs to be done today, what needs to be done this week, and what can wait? You’re looking at urgency, but also what’s meaningful and important.&lt;/p&gt;
-&lt;p&gt;Here’s what you might do:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pick out the things that need to be done today. Start a Short List for things you’re going to do today. That might be important tasks for big projects, urgent tasks that could result in damage if you don’t act, smaller admin tasks that you really should take care of today, and responding to important messages. I would recommend being ruthless and cutting out as much as you can, having just 5 things on your plate if that’s at all possible. Not everything needs to be done today, and not every email needs to be responded to.&lt;/li&gt;
-&lt;li&gt;Push some things to tomorrow and the rest of the week. If you have deadlines that can be pushed back (or renegotiated), do that. Spread the work out over the week, even into next week. What needs to be done tomorrow? What can wait a day or two longer?&lt;/li&gt;
-&lt;li&gt;Eliminate what you can. That might mean just not replying to some messages that aren’t that important and don’t really require a reply. It might mean telling some people that you can’t take on this project after all, or that you need to get out of the commitment that you said you’d do. Yes, this is uncomfortable. For now, just put them on a list called, “To Not Do,” and plan to figure out how to get out of them later.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;OK, you have some breathing room and a manageable list now! Let’s shrink that down even further and just pick one thing.&lt;/p&gt;
-&lt;h2 id=&#34;next-focus-on-one-thing&#34;&gt;Next: Focus on One Thing&lt;/h2&gt;
-&lt;p&gt;With a lot on your plate, it’s hard to pick one thing to focus on. But that’s exactly what I’m going to ask you to do.&lt;/p&gt;
-&lt;p&gt;Pick one thing, and give it your focus. Yes, there are a lot of other things you can focus on. Yes, they’re stressing you out and making it hard to focus. But think about it this way: if you allow it all to be in your head all the time, that will always be your mode of being. You’ll always be thinking about everything, stressing out about it all, with a frazzled mind … unless you start shifting.&lt;/p&gt;
-&lt;p&gt;The shift:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pick something to focus on. Look at the triaged list from the first section … if you have 5-6 things on this Short List, you can assess whether there’s any super urgent, time-sensitive things you need to take care of. If there are, pick one of them. If not, pick the most important one — probably the one you have been putting off doing.&lt;/li&gt;
-&lt;li&gt;Clear everything else away. Just for a little bit. Close all browser tabs, turn off notifications, close open applications, put your phone away.&lt;/li&gt;
-&lt;li&gt;Put that one task before you, and allow yourself to be with it completely. Pour yourself into it. Think of it as a practice, of letting go (of everything else), of focus, of radical simplicity.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;When you’re done (or after 15-20 minutes have gone by at least), you can switch to something else. But don’t allow yourself to switch until then.&lt;/p&gt;
-&lt;p&gt;By closing off all exits, by choosing one thing, by giving yourself completely to that thing … you’re now in a different mode that isn’t so stressful or spread thin. You’ve started a shift that will lead to focus and sanity.&lt;/p&gt;
-&lt;h2 id=&#34;third-schedule-time-to-simplify&#34;&gt;Third: Schedule Time to Simplify&lt;/h2&gt;
-&lt;p&gt;Remember the To Not Do list above? Schedule some time this week to start reducing your projects, saying no to people, getting out of commitments, crossing stuff off your task list … so that you can have some sanity back.&lt;/p&gt;
-&lt;p&gt;There are lots of little things that you’ve said “yes” to that you probably shouldn’t have. That’s why you’re overloaded. Protect your more important work, and your time off, and your peace of mind, by saying “no” to things that aren’t as important.&lt;/p&gt;
-&lt;p&gt;Schedule the time to simplify — you don’t have to do it today, but sometime soon — and you can then not have to worry about the things on your To Not Do list until then.&lt;/p&gt;
-&lt;h2 id=&#34;fourth-practice-mindful-focus&#34;&gt;Fourth: Practice Mindful Focus&lt;/h2&gt;
-&lt;p&gt;Go through the rest of the day with an attitude of “mindful focus.” That means that you are doing one thing at a time, being as present as you can, switching as little as you can.&lt;/p&gt;
-&lt;p&gt;Think of it as a settling of the mind. A new mode of being. A mindfulness practice (which means you won’t be perfect at it).&lt;/p&gt;
-&lt;p&gt;As you practice mindful focus, you’ll learn to practice doing things with an open heart, with curiosity and gratitude, and even joy. Try these one at a time as you get to do each task on your Short List.&lt;/p&gt;
-&lt;p&gt;You’ll find that you’re not so overloaded, but that each task is just perfect for that moment. And that’s a completely new relationship with the work that you do, and a new relationship with life.&lt;/p&gt;
-- https://blog.feeney.moe/posts/example-posts/post-1/ - Feeney. Under CC-BY-NC 4.0.</description>
         </item>
     
     
