@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fieldwork on wkong.dev</title>
-    <link>https://www.wkong.dev/wkong.dev/tags/fieldwork/</link>
+    <link>https://www.wkong.dev/tags/fieldwork/</link>
     <description>Recent content in Fieldwork on wkong.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Weixuan Kong</copyright>
-    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.wkong.dev/wkong.dev/tags/fieldwork/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.wkong.dev/tags/fieldwork/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Ghost Kitchen</title>
-      <link>https://www.wkong.dev/wkong.dev/contents/1766671053650-ghost-kitchen/</link>
+      <link>https://www.wkong.dev/contents/1766671053650-ghost-kitchen/</link>
       <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.wkong.dev/wkong.dev/contents/1766671053650-ghost-kitchen/</guid>
+      <guid>https://www.wkong.dev/contents/1766671053650-ghost-kitchen/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.wkong.dev/wkong.dev/contents/1766671053650-ghost-kitchen/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.wkong.dev/contents/1766671053650-ghost-kitchen/featured.png" />
     </item>
     
   </channel>

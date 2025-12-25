@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Photo on wkong.dev</title>
-    <link>https://www.wkong.dev/wkong.dev/tags/photo/</link>
+    <link>https://www.wkong.dev/tags/photo/</link>
     <description>Recent content in Photo on wkong.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Weixuan Kong</copyright>
-    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.wkong.dev/wkong.dev/tags/photo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.wkong.dev/tags/photo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>floris</title>
-      <link>https://www.wkong.dev/wkong.dev/contents/1766668111492-floris/</link>
+      <link>https://www.wkong.dev/contents/1766668111492-floris/</link>
       <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.wkong.dev/wkong.dev/contents/1766668111492-floris/</guid>
+      <guid>https://www.wkong.dev/contents/1766668111492-floris/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.wkong.dev/wkong.dev/contents/1766668111492-floris/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.wkong.dev/contents/1766668111492-floris/featured.jpg" />
     </item>
     
     <item>
       <title>Kitchen</title>
-      <link>https://www.wkong.dev/wkong.dev/contents/1766667178201-kitchen/</link>
+      <link>https://www.wkong.dev/contents/1766667178201-kitchen/</link>
       <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.wkong.dev/wkong.dev/contents/1766667178201-kitchen/</guid>
+      <guid>https://www.wkong.dev/contents/1766667178201-kitchen/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.wkong.dev/wkong.dev/contents/1766667178201-kitchen/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.wkong.dev/contents/1766667178201-kitchen/featured.jpg" />
     </item>
     
     <item>
       <title>My Friend Tiny</title>
-      <link>https://www.wkong.dev/wkong.dev/contents/1766669511920-my-friend-tiny/</link>
+      <link>https://www.wkong.dev/contents/1766669511920-my-friend-tiny/</link>
       <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.wkong.dev/wkong.dev/contents/1766669511920-my-friend-tiny/</guid>
+      <guid>https://www.wkong.dev/contents/1766669511920-my-friend-tiny/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.wkong.dev/wkong.dev/contents/1766669511920-my-friend-tiny/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.wkong.dev/contents/1766669511920-my-friend-tiny/featured.png" />
     </item>
     
   </channel>
