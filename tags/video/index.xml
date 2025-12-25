@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Video on wkong.dev</title>
+    <link>wkong.dev/tags/video/</link>
+    <description>Recent content in Video on wkong.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Weixuan Kong</copyright>
+    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="wkong.dev/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Commercials</title>
+      <link>wkong.dev/contents/1766623827278-frintz/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>wkong.dev/contents/1766623827278-frintz/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="wkong.dev/contents/1766623827278-frintz/featured.png" />
+    </item>
+    
+    <item>
+      <title>Personal Story (short film)</title>
+      <link>wkong.dev/contents/1766626331967-personal-story/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>wkong.dev/contents/1766626331967-personal-story/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="wkong.dev/contents/1766626331967-personal-story/featured.png" />
+    </item>
+    
+    <item>
+      <title>Shhh (short film)</title>
+      <link>wkong.dev/contents/1766622451881-shhh/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>wkong.dev/contents/1766622451881-shhh/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="wkong.dev/contents/1766622451881-shhh/featured.png" />
+    </item>
+    
+    <item>
+      <title>The Detective Story (short film)</title>
+      <link>wkong.dev/contents/1766627050972-the-detective-story/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>wkong.dev/contents/1766627050972-the-detective-story/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="wkong.dev/contents/1766627050972-the-detective-story/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

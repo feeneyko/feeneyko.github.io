@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1920" height="1080" viewBox="0 0 1920 1080"
+     preserveAspectRatio="none">
+
+  <defs>
+    <!-- Soft glow for capsules -->
+    <filter id="capsGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Capsule symbol -->
+    <symbol id="cap" viewBox="0 0 100 28" overflow="visible">
+      <rect x="0" y="0" width="100" height="28" rx="14" ry="14"/>
+    </symbol>
+
+    <!-- Layer A: bigger capsules -->
+    <pattern id="capsA" patternUnits="userSpaceOnUse" width="520" height="520">
+      <!-- "falling like snow" (down + a bit sideways) -->
+      <animateTransform attributeName="patternTransform" type="translate"
+                        values="0 0; 90 520"
+                        dur="10s" repeatCount="indefinite"/>
+      <g opacity="0.72">
+        <use href="#cap" x="30"  y="40"  width="220" height="28" fill="#b575ff" transform="rotate(-45 140 54)"/>
+        <use href="#cap" x="290" y="55"  width="170" height="28" fill="#ff6bd6" transform="rotate(-45 375 69)"/>
+        <use href="#cap" x="90"  y="170" width="150" height="28" fill="#7b61ff" transform="rotate(-45 165 184)"/>
+        <use href="#cap" x="320" y="210" width="250" height="28" fill="#ffa0e6" transform="rotate(-45 445 224)"/>
+        <use href="#cap" x="40"  y="320" width="270" height="28" fill="#ff57c8" transform="rotate(-45 175 334)"/>
+        <use href="#cap" x="320" y="355" width="150" height="28" fill="#9a7cff" transform="rotate(-45 395 369)"/>
+        <use href="#cap" x="120" y="430" width="210" height="28" fill="#caa6ff" transform="rotate(-45 225 444)"/>
+      </g>
+    </pattern>
+
+    <!-- Layer B: smaller capsules for parallax -->
+    <pattern id="capsB" patternUnits="userSpaceOnUse" width="520" height="520">
+      <animateTransform attributeName="patternTransform" type="translate"
+                        values="0 0; -60 520"
+                        dur="7.5s" repeatCount="indefinite"/>
+      <g opacity="0.55">
+        <use href="#cap" x="70"  y="20"  width="120" height="22" fill="#ff85de" transform="rotate(-45 130 31)"/>
+        <use href="#cap" x="210" y="90"  width="90"  height="22" fill="#8a7dff" transform="rotate(-45 255 101)"/>
+        <use href="#cap" x="420" y="120" width="110" height="22" fill="#ff6bd6" transform="rotate(-45 475 131)"/>
+        <use href="#cap" x="20"  y="140" width="80"  height="22" fill="#caa6ff" transform="rotate(-45 60 151)"/>
+        <use href="#cap" x="130" y="250" width="170" height="22" fill="#7b61ff" transform="rotate(-45 215 261)"/>
+        <use href="#cap" x="360" y="260" width="105" height="22" fill="#ffa0e6" transform="rotate(-45 412 271)"/>
+        <use href="#cap" x="60"  y="370" width="95"  height="22" fill="#ff57c8" transform="rotate(-45 108 381)"/>
+        <use href="#cap" x="250" y="390" width="150" height="22" fill="#b575ff" transform="rotate(-45 325 401)"/>
+        <use href="#cap" x="410" y="430" width="85"  height="22" fill="#ff85de" transform="rotate(-45 452 441)"/>
+      </g>
+    </pattern>
+
+    <!-- Layer C: tiny sprinkles -->
+    <pattern id="capsC" patternUnits="userSpaceOnUse" width="520" height="520">
+      <animateTransform attributeName="patternTransform" type="translate"
+                        values="0 0; 40 520"
+                        dur="5.8s" repeatCount="indefinite"/>
+      <g opacity="0.38">
+        <use href="#cap" x="10"  y="70"  width="70" height="16" fill="#ffb3ec" transform="rotate(-45 45 78)"/>
+        <use href="#cap" x="200" y="30"  width="55" height="16" fill="#bda6ff" transform="rotate(-45 227 38)"/>
+        <use href="#cap" x="350" y="80"  width="60" height="16" fill="#ff7dde" transform="rotate(-45 380 88)"/>
+        <use href="#cap" x="110" y="290" width="65" height="16" fill="#9f86ff" transform="rotate(-45 142 298)"/>
+        <use href="#cap" x="420" y="310" width="50" height="16" fill="#ff57c8" transform="rotate(-45 445 318)"/>
+        <use href="#cap" x="260" y="430" width="75" height="16" fill="#ff9ee5" transform="rotate(-45 297 438)"/>
+      </g>
+    </pattern>
+  </defs>
+
+  <!-- NOTE: No background rectangle is drawn => SVG background is transparent. -->
+
+  <g filter="url(#capsGlow)">
+    <rect x="0" y="0" width="1920" height="1080" fill="url(#capsA)"/>
+    <rect x="0" y="0" width="1920" height="1080" fill="url(#capsB)"/>
+    <rect x="0" y="0" width="1920" height="1080" fill="url(#capsC)"/>
+  </g>
+</svg>
