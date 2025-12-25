@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Program on wkong.dev</title>
-    <link>wkong.dev/tags/program/</link>
+    <link>www.wkong.dev/tags/program/</link>
     <description>Recent content in Program on wkong.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Weixuan Kong</copyright>
-    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="wkong.dev/tags/program/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="www.wkong.dev/tags/program/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Kubelka-Munk Color Mixing</title>
-      <link>wkong.dev/contents/1766636989629-kubelka-munk-color-mixing/</link>
+      <link>www.wkong.dev/contents/1766636989629-kubelka-munk-color-mixing/</link>
       <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>wkong.dev/contents/1766636989629-kubelka-munk-color-mixing/</guid>
+      <guid>www.wkong.dev/contents/1766636989629-kubelka-munk-color-mixing/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="wkong.dev/contents/1766636989629-kubelka-munk-color-mixing/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="www.wkong.dev/contents/1766636989629-kubelka-munk-color-mixing/featured.png" />
     </item>
     
     <item>
       <title>Web Color Helper</title>
-      <link>wkong.dev/contents/1766677131860-web-color-helper/</link>
+      <link>www.wkong.dev/contents/1766677131860-web-color-helper/</link>
       <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>wkong.dev/contents/1766677131860-web-color-helper/</guid>
+      <guid>www.wkong.dev/contents/1766677131860-web-color-helper/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="wkong.dev/contents/1766677131860-web-color-helper/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="www.wkong.dev/contents/1766677131860-web-color-helper/featured.png" />
     </item>
     
   </channel>
