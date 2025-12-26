@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Video on wkong.dev</title>
-    <link>https://www.wkong.dev/tags/video/</link>
+    <link>https://wkong.dev/tags/video/</link>
     <description>Recent content in Video on wkong.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Weixuan Kong</copyright>
-    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.wkong.dev/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://wkong.dev/tags/video/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Commercials</title>
-      <link>https://www.wkong.dev/contents/1766623827278-frintz/</link>
+      <link>https://wkong.dev/contents/1766623827278-frintz/</link>
       <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.wkong.dev/contents/1766623827278-frintz/</guid>
+      <guid>https://wkong.dev/contents/1766623827278-frintz/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.wkong.dev/contents/1766623827278-frintz/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://wkong.dev/contents/1766623827278-frintz/featured.png" />
     </item>
     
     <item>
       <title>Personal Story (short film)</title>
-      <link>https://www.wkong.dev/contents/1766626331967-personal-story/</link>
+      <link>https://wkong.dev/contents/1766626331967-personal-story/</link>
       <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.wkong.dev/contents/1766626331967-personal-story/</guid>
+      <guid>https://wkong.dev/contents/1766626331967-personal-story/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.wkong.dev/contents/1766626331967-personal-story/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://wkong.dev/contents/1766626331967-personal-story/featured.png" />
     </item>
     
     <item>
       <title>Shhh (short film)</title>
-      <link>https://www.wkong.dev/contents/1766622451881-shhh/</link>
+      <link>https://wkong.dev/contents/1766622451881-shhh/</link>
       <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.wkong.dev/contents/1766622451881-shhh/</guid>
+      <guid>https://wkong.dev/contents/1766622451881-shhh/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.wkong.dev/contents/1766622451881-shhh/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://wkong.dev/contents/1766622451881-shhh/featured.png" />
     </item>
     
     <item>
       <title>The Detective Story (short film)</title>
-      <link>https://www.wkong.dev/contents/1766627050972-the-detective-story/</link>
+      <link>https://wkong.dev/contents/1766627050972-the-detective-story/</link>
       <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.wkong.dev/contents/1766627050972-the-detective-story/</guid>
+      <guid>https://wkong.dev/contents/1766627050972-the-detective-story/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.wkong.dev/contents/1766627050972-the-detective-story/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://wkong.dev/contents/1766627050972-the-detective-story/featured.png" />
     </item>
     
   </channel>

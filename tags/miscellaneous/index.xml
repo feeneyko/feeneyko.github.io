@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Miscellaneous on wkong.dev</title>
-    <link>https://www.wkong.dev/tags/miscellaneous/</link>
+    <link>https://wkong.dev/tags/miscellaneous/</link>
     <description>Recent content in Miscellaneous on wkong.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Weixuan Kong</copyright>
-    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.wkong.dev/tags/miscellaneous/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://wkong.dev/tags/miscellaneous/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Miscellaneous</title>
-      <link>https://www.wkong.dev/contents/1766672342725-miscellaneous/</link>
+      <link>https://wkong.dev/contents/1766672342725-miscellaneous/</link>
       <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://www.wkong.dev/contents/1766672342725-miscellaneous/</guid>
+      <guid>https://wkong.dev/contents/1766672342725-miscellaneous/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.wkong.dev/contents/1766672342725-miscellaneous/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://wkong.dev/contents/1766672342725-miscellaneous/feature.jpg" />
     </item>
     
   </channel>

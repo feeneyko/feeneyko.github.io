@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on wkong.dev</title>
-    <link>https://www.wkong.dev/categories/</link>
+    <link>https://wkong.dev/categories/</link>
     <description>Recent content in Categories on wkong.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Weixuan Kong</copyright>
-    <atom:link href="https://www.wkong.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://wkong.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
