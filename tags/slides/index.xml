@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Visual Culture on wkong.dev</title>
-    <link>https://wkong.dev/tags/visual-culture/</link>
-    <description>Recent content in Visual Culture on wkong.dev</description>
+    <title>Slides on wkong.dev</title>
+    <link>https://wkong.dev/tags/slides/</link>
+    <description>Recent content in Slides on wkong.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Weixuan Kong</copyright>
-    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://wkong.dev/tags/visual-culture/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://wkong.dev/tags/slides/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ghost Kitchen</title>
+      <link>https://wkong.dev/contents/1766671053650-ghost-kitchen/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wkong.dev/contents/1766671053650-ghost-kitchen/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://wkong.dev/contents/1766671053650-ghost-kitchen/featured.png" />
+    </item>
     
     <item>
       <title>Illustrated Account of the Mongol Invasion</title>

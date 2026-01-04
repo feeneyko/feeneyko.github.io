@@ -3,13 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://wkong.dev/contents/1766623827278-frintz/</loc>
-    <lastmod>2025-12-25T00:00:00+00:00</lastmod>
+    <loc>https://wkong.dev/contents/</loc>
+    <lastmod>2026-01-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://wkong.dev/contents/</loc>
+    <loc>https://wkong.dev/contents/1767531993828-doll-weekend-13-signature-wall/</loc>
+    <lastmod>2026-01-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wkong.dev/</loc>
+    <lastmod>2026-01-04T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wkong.dev/contents/1766623827278-frintz/</loc>
     <lastmod>2025-12-25T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -70,12 +82,6 @@
   </url>
   <url>
     <loc>https://wkong.dev/contents/1766677131860-web-color-helper/</loc>
-    <lastmod>2025-12-25T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://wkong.dev/</loc>
     <lastmod>2025-12-25T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
