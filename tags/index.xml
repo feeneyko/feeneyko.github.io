@@ -7,22 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Weixuan Kong</copyright>
-    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://wkong.dev/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Fieldwork</title>
-      <link>https://wkong.dev/tags/fieldwork/</link>
-      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://wkong.dev/tags/fieldwork/</guid>
-      <description></description>
-      
-    </item>
+    <lastBuildDate>Fri, 10 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://wkong.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Miscellaneous</title>
       <link>https://wkong.dev/tags/miscellaneous/</link>
-      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
       
       <guid>https://wkong.dev/tags/miscellaneous/</guid>
       <description></description>
@@ -32,9 +22,19 @@
     <item>
       <title>Photo</title>
       <link>https://wkong.dev/tags/photo/</link>
-      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
       
       <guid>https://wkong.dev/tags/photo/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Fieldwork</title>
+      <link>https://wkong.dev/tags/fieldwork/</link>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://wkong.dev/tags/fieldwork/</guid>
       <description></description>
       
     </item>
